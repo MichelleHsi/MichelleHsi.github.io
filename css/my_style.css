@@ -15,6 +15,16 @@ p.redred{
 .blueblue{
     color: cornflowerblue;
 }
+.pinkupinku{
+    color: rgb(150, 103, 110);
+}
+.expedu_icon{
+    color: rgb(206, 143, 143);
+}
+.expedu_icon:hover{
+    color: #ffffff;
+    background-color: rgb(206, 143, 143);
+}
 
 body{
     font-family: 'Noto Sans TC', sans-serif;
