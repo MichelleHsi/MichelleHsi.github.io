@@ -3,12 +3,20 @@
     line-height: 1.5em;
 }
 
+.bg-primary{
+    background-color: #a594c0 !important;
+    background-image: url(../assets/bg-ye.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 p.redred{
     color: rgb(206, 143, 143);
     font-size: 40px;
     text-align: center;
     text-indent: 2em;
-    background-color: aliceblue;
+    background-image: url(../assets/bg-m.jpg);
+    border: 10px solid rgb(248, 177, 177);
     font-family: 'Noto Serif TC', sans-serif;
 }
 
@@ -16,7 +24,7 @@ p.redred{
     color: cornflowerblue;
 }
 .pinkupinku{
-    color: rgb(150, 103, 110);
+    color: rgba(150, 103, 110, 0.5);
 }
 .expedu_icon{
     color: rgb(206, 143, 143);
