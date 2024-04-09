@@ -37,3 +37,26 @@ p.redred{
 body{
     font-family: 'Noto Sans TC', sans-serif;
 }
+
+table.yytable{
+    width: 70%;
+    border-collapse: separate;
+}
+table.yytable th{
+    text-align: center;
+    background-color: #b0a2c5;
+    color: #ffffff;
+    border: 2px solid rgb(237, 155, 100);
+}
+table.yytable td{
+    text-align: center;
+    border: 2px solid cornflowerblue;
+}
+table.yytable tr:nth-child(even){
+    background-color: blanchedalmond;
+    color: #000;
+}
+table.yytable tr:nth-child(odd){
+    background-color: darksalmon;
+    color: #000;
+}
