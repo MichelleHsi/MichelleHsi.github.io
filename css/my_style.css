@@ -1,3 +1,8 @@
+.text-primary {
+    --bs-text-opacity: 1;
+    color: #d9aab5 !important;
+  }
+
 *{
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -20,6 +25,9 @@ p.redred{
     font-family: 'Noto Serif TC', sans-serif;
 }
 
+.blackblack{
+    color: rgb(81, 81, 81);
+}
 .blueblue{
     color: cornflowerblue;
 }
