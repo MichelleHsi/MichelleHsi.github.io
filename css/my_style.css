@@ -1,20 +1,53 @@
-.text-primary {
-    --bs-text-opacity: 1;
-    color: #d9aab5 !important;
-  }
-
-*{
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
+/*字體font-family: 'Noto Serif TC', sans-serif;*/
+body{
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
+
+/*背景 */
+.container-fluid{
+    background-image: url("https://www.transparenttextures.com/patterns/diamond-eyes.png");
+}
+
+
+/*左欄背景*/
 .bg-primary{
     background-color: #ffefef !important;
-    background-image: url(../assets/bg-ye.jpg); 
+    background-image: url(../assets/bg-ye.jpg) !important; 
     background-repeat: no-repeat;
     background-position: center;
 }
 
+
+/*左欄的顏色 110, 12, 12, 0.352*/
+.navbar-dark {
+    --bs-navbar-color: rgba(255, 255, 255, 0.6);
+    --bs-navbar-hover-color: rgba(189, 56, 56, 0.347);
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+    --bs-navbar-active-color: rgba(104, 12, 12, 0.418);
+    --bs-navbar-brand-color: #fff;
+    --bs-navbar-brand-hover-color: #fff;
+    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.6);
+}
+
+
+/*link顏色 #d9aab5*/
+.link{
+    color: #d9aab5;
+}
+.link:hover{
+    color: #d9bdd8 !important;
+}
+.social-icons .social-icon {
+    background-color: #495057;
+    color: #ffffff;
+  }
+.social-icons .social-icon:hover {
+    background-color: #d9aab5;
+  }
+
+
+/*第一頁的框框*/
 .overflowtest{
     padding: 30px 40px;
     background-color: #79323229;
@@ -22,7 +55,27 @@
     font-family: 'Noto Serif TC', sans-serif;
 }
 
-/*字體font-family: 'Noto Serif TC', sans-serif;*/
+
+  /*教育過程的框框*/
+.box{
+    width: 130%;
+    color: rgb(81, 81, 81);
+}
+.box1{
+    width: 122%;
+    color: rgb(81, 81, 81);
+}
+
+/*粉紅字*/
+.text-primary {
+    --bs-text-opacity: 1;
+    color: #d9aab5 !important;
+  }
+
+/*{
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+}*/
 
 
 p.redred{
@@ -44,6 +97,8 @@ p.redred{
 .pinkupinku{
     color: rgb(204, 120, 120);
 }
+
+
 .expedu_icon{
     color: rgb(206, 143, 143);
 }
@@ -52,9 +107,6 @@ p.redred{
     background-color: rgb(206, 143, 143);
 }
 
-body{
-    font-family: 'Noto Sans TC', sans-serif;
-}
 
 table.yytable{
     width: 70%;
@@ -79,11 +131,3 @@ table.yytable tr:nth-child(odd){
     color: #000;
 }
 
-.box{
-    width: 150%;
-    color: rgb(81, 81, 81);
-}
-.box1{
-    width: 141%;
-    color: rgb(81, 81, 81);
-}
