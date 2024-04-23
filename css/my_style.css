@@ -9,11 +9,21 @@
 }
 
 .bg-primary{
-    background-color: #a594c0 !important;
+    background-color: #ffefef !important;
     background-image: url(../assets/bg-ye.jpg); 
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.overflowtest{
+    padding: 30px 40px;
+    background-color: #79323229;
+    border-radius: 30px;
+    font-family: 'Noto Serif TC', sans-serif;
+}
+
+/*字體font-family: 'Noto Serif TC', sans-serif;*/
+
 
 p.redred{
     color: rgb(206, 143, 143);
@@ -32,7 +42,7 @@ p.redred{
     color: cornflowerblue;
 }
 .pinkupinku{
-    color: rgba(150, 103, 110, 0.5);
+    color: rgb(204, 120, 120);
 }
 .expedu_icon{
     color: rgb(206, 143, 143);
@@ -67,4 +77,13 @@ table.yytable tr:nth-child(even){
 table.yytable tr:nth-child(odd){
     background-color: darksalmon;
     color: #000;
+}
+
+.box{
+    width: 150%;
+    color: rgb(81, 81, 81);
+}
+.box1{
+    width: 141%;
+    color: rgb(81, 81, 81);
 }
