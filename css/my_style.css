@@ -6,20 +6,32 @@ body{
 
 /*背景 */
 .container-fluid{
+    background-color: #fffcfc;
     background-image: url("https://www.transparenttextures.com/patterns/diamond-eyes.png");
+}
+#portfolios{
+    background-color: #fffcfc;
+    background-image: url("https://www.transparenttextures.com/patterns/diamond-eyes.png");
+}
+
+
+.photobg{
+    background: url(../assets/img/photobg.png) no-repeat top right;
+    padding-top: 0px;
+
 }
 
 
 /*左欄背景*/
 .bg-primary{
     background-color: #ffefef !important;
-    background-image: url(../assets/bg-ye.jpg) !important; 
+    background-image: url(../assets/img/bg-ye.jpg) !important; 
     background-repeat: no-repeat;
     background-position: center;
 }
 
 
-/*左欄的顏色 110, 12, 12, 0.352*/
+/*左欄的字 110, 12, 12, 0.352*/
 .navbar-dark {
     --bs-navbar-color: rgba(255, 255, 255, 0.6);
     --bs-navbar-hover-color: rgba(189, 56, 56, 0.347);
@@ -28,6 +40,19 @@ body{
     --bs-navbar-brand-color: #fff;
     --bs-navbar-brand-hover-color: #fff;
     --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.6);
+}
+.nav-link:hover{
+    font-size: 125%;
+}
+.nav-item{
+    line-height: 1.25;
+}
+
+
+/*邊界*/
+section.resume-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 
@@ -41,18 +66,44 @@ body{
 .social-icons .social-icon {
     background-color: #495057;
     color: #ffffff;
-  }
+}
 .social-icons .social-icon:hover {
-    background-color: #d9aab5;
-  }
+    background-color: #e4a6b4;
+}
 
 
 /*第一頁的框框*/
 .overflowtest{
     padding: 30px 40px;
-    background-color: #79323229;
+    padding-bottom: 20px;
+    background-color: #79323229;;
     border-radius: 30px;
     font-family: 'Noto Serif TC', sans-serif;
+}
+.flow{
+    color: #470303;
+    padding: 10px 20px;
+    width: 90%;
+    background-color: #cc787829;
+    border-radius: 10px;
+    font-family: 'Noto Serif TC', sans-serif;
+}
+.abme {
+    text-decoration: none;
+    color: #9a4848;
+    line-height: 3em;
+    text-align: center;
+    display: block;
+}
+.abme span{
+    margin-left: -100px;
+}
+.abme:hover span{
+    color: #fffcfc;
+    background:#9a4848;
+    padding: 5px;
+    padding-bottom: 7px;
+    border-radius: 15px;
 }
 
 
@@ -66,6 +117,17 @@ body{
     color: rgb(81, 81, 81);
 }
 
+
+/*作品集*/
+.w100{
+    width: 40%
+}
+.carousel-item img{
+    margin:0 auto;
+    width: 90%;
+}
+
+
 /*粉紅字*/
 .text-primary {
     --bs-text-opacity: 1;
@@ -76,6 +138,23 @@ body{
     letter-spacing: 0.8px;
     line-height: 1.5em;
 }*/
+
+
+/*照片作品*/
+.col {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-0.5* var(--bs-gutter-x));
+    margin-left: calc(-0.5* var(--bs-gutter-x));
+}
+
+
+.gg li:hover{
+    color: rgb(223, 148, 148) !important;
+}
 
 
 p.redred{
@@ -130,4 +209,3 @@ table.yytable tr:nth-child(odd){
     background-color: darksalmon;
     color: #000;
 }
-
