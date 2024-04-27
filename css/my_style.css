@@ -2,7 +2,10 @@
 body{
     font-family: 'Noto Sans TC', sans-serif;
 }
-
+.fonthh{
+    font-family: 'Noto Serif TC', sans-serif;
+    margin: 0%;
+}
 
 /*背景 */
 .container-fluid{
@@ -124,12 +127,23 @@ section.resume-section{
 }*/
 
 
+/*社團經驗清單*/
+.listhh {
+    color: #2A3D48;
+    font-weight: bold;
+    font-size: larger;
+    padding-bottom: 5px;
+}
+.w-85 {
+    width: 85% ;
+}
+
+
 /*作品集*/
 .carousel {
-
     width:75%;
     margin: 0 auto;
-  }
+}
 
 .w100{
     width: 40%
@@ -195,6 +209,9 @@ p.redred{
 }
 .pinkupinku{
     color: rgb(204, 120, 120);
+}
+.ppink{
+    color: #c4aab0;
 }
 
 
