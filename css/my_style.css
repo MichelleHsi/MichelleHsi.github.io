@@ -179,6 +179,10 @@ section.resume-section{
     line-height: 1.5em;
 }*/
 
+.textright {
+    text-align: right
+}
+
 
 /*照片作品*/
 .col {
