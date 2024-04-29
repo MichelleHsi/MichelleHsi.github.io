@@ -99,6 +99,10 @@ section.resume-section{
 .social-icons .social-icon:hover {
     background-color: #e4a6b4;
 }
+a {
+    color: #d07e7e;
+    text-decoration: underline;
+}
 
 
 /*第一頁的框框*/
