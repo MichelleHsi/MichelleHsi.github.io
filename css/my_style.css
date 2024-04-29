@@ -180,7 +180,7 @@ section.resume-section{
 }*/
 
 .textright {
-    text-align: right
+    float:right;
 }
 
 
