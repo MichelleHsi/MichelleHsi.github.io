@@ -9,6 +9,9 @@ body{
 .fontsize{
     font-size: 20px;
 }
+.fontsize1{
+    font-size: 15PX;
+}
 
 
 /*背景 */
@@ -41,7 +44,7 @@ body{
 
 
 /*左欄的字 110, 12, 12, 0.352*/
-.navbar-dark {
+/*.navbar-dark {
     --bs-navbar-color: rgba(255, 255, 255, 0.6);
     --bs-navbar-hover-color: rgba(189, 56, 56, 0.347);
     --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
@@ -49,9 +52,26 @@ body{
     --bs-navbar-brand-color: #fff;
     --bs-navbar-brand-hover-color: #fff;
     --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.6);
+}*/
+.navbar-nav .show > .nav-link,
+.navbar-nav .nav-link.active {
+    color: rgba(104, 12, 12, 0.418);
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 .nav-link:hover{
     font-size: 125%;
+    color: rgba(189, 56, 56, 0.347);
+}
+.nav-link:active{
+    color: rgba(104, 12, 12, 0.418);
 }
 .nav-item{
     line-height: 1.25;
@@ -145,6 +165,9 @@ section.resume-section{
     display: block;
     margin-bottom: 0.5em;
 }
+.textright {
+    float:right;
+}
 
 
 /*作品集*/
@@ -179,9 +202,7 @@ section.resume-section{
     line-height: 1.5em;
 }*/
 
-.textright {
-    float:right;
-}
+
 
 
 /*照片作品*/
