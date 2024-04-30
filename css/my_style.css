@@ -23,6 +23,8 @@ body{
     background-color: #fffcfc;
     background-image: url("https://www.transparenttextures.com/patterns/diamond-eyes.png");
 }
+
+
 /*第一頁右上圖*/
 .photobg{
     background: url(../assets/img/photobg.png) no-repeat top right;
