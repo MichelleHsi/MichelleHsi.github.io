@@ -10,7 +10,7 @@ body{
     font-size: 20px;
 }
 .fontsize1{
-    font-size: 15PX;
+    font-size: 16PX;
 }
 
 
@@ -23,6 +23,8 @@ body{
     background-color: #fffcfc;
     background-image: url("https://www.transparenttextures.com/patterns/diamond-eyes.png");
 }
+
+
 /*第一頁右上圖*/
 .photobg{
     background: url(../assets/img/photobg.png) no-repeat top right;
@@ -53,10 +55,6 @@ body{
     --bs-navbar-brand-hover-color: #fff;
     --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.6);
 }*/
-.navbar-nav .show > .nav-link,
-.navbar-nav .nav-link.active {
-    color: rgba(104, 12, 12, 0.418);
-}
 .nav-link {
     display: block;
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
@@ -75,6 +73,10 @@ body{
 }
 .nav-item{
     line-height: 1.25;
+}
+.navbar-nav .show > .nav-link,
+.navbar-nav .nav-link.active {
+    color: rgba(104, 12, 12, 0.418);
 }
 
 
@@ -109,7 +111,7 @@ a {
 .overflowtest{
     padding: 30px 40px;
     padding-bottom: 20px;
-    background-color: #79323229;;
+    background-color: #79323229;
     border-radius: 30px;
     font-family: 'Noto Serif TC', sans-serif;
 }
@@ -215,9 +217,9 @@ a {
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
-    margin-top: calc(-1* var(--bs-gutter-y));
-    margin-right: calc(-0.5* var(--bs-gutter-x));
-    margin-left: calc(-0.5* var(--bs-gutter-x));
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 
 
